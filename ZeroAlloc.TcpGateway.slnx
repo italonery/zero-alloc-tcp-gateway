@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ZeroAlloc.TcpGateway.Tests/ZeroAlloc.TcpGateway.Tests.csproj" />
+  <Project Path="ZeroAlloc.TcpGateway/ZeroAlloc.TcpGateway.csproj" />
+</Solution>

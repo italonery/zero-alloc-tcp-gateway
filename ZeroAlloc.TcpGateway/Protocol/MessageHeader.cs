@@ -1,17 +1,6 @@
 namespace ZeroAlloc.TcpGateway.Protocol;
 
 /// <summary>
-/// Defines the telemetry messages supported by the gateway.
-/// </summary>
-public enum MessageType : byte
-{
-    Unknown = 0,
-    Heartbeat = 1,
-    LocationData = 2,
-    SensorMetrics = 3
-}
-
-/// <summary>
 /// Represents the fixed 4-byte header of the binary IoT protocol.
 /// </summary>
 public readonly record struct MessageHeader(byte MagicByte, MessageType Type, ushort PayloadLength)
